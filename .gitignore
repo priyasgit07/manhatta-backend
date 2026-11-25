@@ -1,0 +1,18 @@
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Generated Prisma client
+src/generated/prisma/
+.agents/
+.claude/
+.cursor/
+.devin/
+.windsurf/
